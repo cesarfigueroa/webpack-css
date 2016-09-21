@@ -1,0 +1,16 @@
+@import 'variables.css';
+@import 'more-styles.css';
+
+body {
+  background: var(--color-red);
+  display: flex;
+  width: calc(100px / 5);
+}
+
+.foo { color: red; }
+
+@media screen and (min-width: 100px) {
+  .foo {
+    color: green;
+  }
+}

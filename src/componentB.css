@@ -1,0 +1,5 @@
+@import 'variables.css';
+
+.component-b {
+  color: var(--color-blue);
+}

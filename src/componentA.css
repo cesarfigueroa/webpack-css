@@ -1,0 +1,7 @@
+@import 'variables.css';
+
+.component-a {
+  color: var(--color-red);
+  display: flex;
+  flex: 1;
+}
